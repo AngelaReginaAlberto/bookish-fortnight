@@ -1,0 +1,76 @@
+.fale__conosco {
+    width: 50vw;
+    height: 50vh;
+   
+    background:#EAF2FD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 64px;
+    gap: 115px;
+    text-align: center;
+    }
+
+   .box {
+    width: 1440px;
+    height: 368px;
+    background: #fff;
+    }
+
+    body {
+    margin: 0px;
+    }
+
+   
+    form div + div {
+        margin-top: 1em;
+    }
+    label {
+        /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+    }
+    input, textarea {
+
+        font: 1em sans-serif;
+        width: 560px;
+        height: 82PX;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border-radius: 4px;
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 1;
+    }
+
+    
+    textarea {
+        
+        vertical-align: top;
+        height: 5em;
+    }
+
+    .button {
+        
+       
+        background:  #2A7AE4;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 10px;
+        
+        width: 165px;
+        height: 51px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+  
+    

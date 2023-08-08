@@ -1,0 +1,36 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.img__logo {
+   justify-content: flex-start;
+    display: inline;
+
+    float: left;
+
+
+
+    
+}
+.chamada__botao{
+    display:block;
+    box-sizing: border-box;
+    border:1px solid  #2A7AE4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    
+
+
+
+    height: 51px;
+    width: 182px;
+    left: 954px;
+    top: 32px;
+    border-radius: 0px;
+    padding: 16px;
+}
+
+

@@ -1,0 +1,12 @@
+.banner__subtitulo{
+    font-family: raleway;
+    color: #fdfdfd;
+    font-size: 22px;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 65%;
+    text-align:left;
+    transform: translate(-35%, -35%);
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+.imagem__rodape{
+ display: flex;
+ justify-content: flex-start;
+ width: 176px;
+ height: 50px;
+
+}

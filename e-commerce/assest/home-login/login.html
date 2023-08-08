@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+    
+
+<html> 
+<head>
+  
+
+<link rel="stylesheet" href="assest/home-login/styleformulario.css">
+<script src="./js/scripty.js" defer></script>
+<title> login </title>
+
+ 
+ 
+</head>
+    <header>
+    <section class="logo_formulario">
+        <img class="img__logoformulario" src="assest/home-login/Logo (3).png"alt="logo alura"></img>
+
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder=" O que deseja encontrar..."/>
+            <img src="assest/LUPA.png " id="btnBusca" alt="LUPA DE BUSCA"/>
+        </div>
+    </section>
+   </header>
+    <body>
+            <Section class="meu__formulario">
+            <h3 class="">Iniciar Sessão</h3>
+    
+            <form id="meuForm">
+            
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"><br>
+                
+                <label for="password">Senha: </label>
+                <input type="password" id="password" placeholder="Insira sua senha">
+                <input type="submit" value="Enviar">
+
+            
+            </Section>     
+            
+        <footer>
+            <img src="assest/home-login/Logo (3).png" alt="logoda alura"/>
+                <p> Quem Somos Nós</p>
+                <p>Politica de Privacidade</p>
+                <p>Progrma Fidelidade</p>
+                <p>Nossas lojas</p>
+                <p>Quero Ser Franqueado</p>
+                <p>Anuncie Aqui</p>
+            
+            
+            <form id="meuForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="username">Usuário: </label>
+            <input type="text" id="username" placeholder="Insira seu nome de usuário">
+            <input type="submit" value="Enviar">
+            
+        </footer>
+        <rodape>Desenvolvido Por Angela Regina Alberto</rodape>
+
+  
+    <script src="./form.js"></script>
+</body>
+</html>
+
+const form = document.querySelector('form');
+const passwordInput = document.getElementById('password');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  
+  const password = passwordInput.value;
+  
+  // faça a validação da senha aqui
+  
+  // se a senha estiver correta, envie o formulário usando form.submit();
+});

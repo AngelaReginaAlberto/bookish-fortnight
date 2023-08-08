@@ -1,0 +1,11 @@
+.produtos{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #E5E5E5;
+    
+}

@@ -1,0 +1,10 @@
+.rodape{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 64px;
+gap: 115px;
+
+background: #EAF2FD;
+}

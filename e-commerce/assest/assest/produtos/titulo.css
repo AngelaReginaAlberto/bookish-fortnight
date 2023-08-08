@@ -1,0 +1,29 @@
+ .titulo__produto{
+       
+       background:  #E5E5E5;
+       display: flex;
+      justify-content: space-between;
+      margin :auto;
+ }
+
+
+
+.titulo__star{
+ width: 148px;
+height: 38px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: #464646;
+padding: auto;
+
+
+}
+  
+.imagem__star{
+  padding-left:auto;
+}
+

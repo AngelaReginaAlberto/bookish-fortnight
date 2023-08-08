@@ -1,0 +1,116 @@
+
+.logo_formulario {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    display: flex;
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+
+
+/*lupa de busca*/
+
+
+#divBusca{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 393px;
+height: 40px;
+background: #F5F5F5;
+border-radius: 20px;
+}
+  
+#txtBusca {
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:14px;
+    border:none;
+    height:32px;
+    width:260px;
+}
+ 
+
+/*style formulario */
+
+.meu__formulario {
+
+  justify-content: center;
+  background:  # black;
+
+}
+
+
+#meuForm {
+  display: flex;
+  justify-items: ;
+  margin: 20px;
+  padding: 20px;
+  border: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  width: 400px;
+}
+
+   label {
+    display:flex;
+    margin-bottom: none;
+    }
+
+    input[type="password"],
+    input[type="email"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+   width: 423px;
+   height: 63.13px;
+
+
+/* Preto/branco */
+
+background: #FFFFFF;
+border-radius: 4px;
+
+
+
+    }
+
+    input[type="submit"] {
+      
+      background: #2A7AE4;
+      border: none;
+      color: white;
+      padding: 12px 16px 12px 16px;
+      text-align: center;
+      text-decoration: none;
+   
+      font-size: 16px;
+      border-radius: 0px;
+      cursor: pointer;
+      display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 12px 16px;
+     gap: 10px;
+
+     position: absolute;
+     width: 423px;
+     height: 62px;
+     left: 508px;
+     top: 435px;
+
+    }
